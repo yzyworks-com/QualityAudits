@@ -1,0 +1,43 @@
+name: Weekly Audit
+
+on:
+  schedule:
+    - cron: "0 10 * * 1"   # every Monday 10:00 UTC
+  workflow_dispatch:          # also allow manual trigger
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write         # needed to commit the report
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install xray-core
+        run: |
+          wget -q https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip
+          unzip -q Xray-linux-64.zip xray
+          sudo mv xray /usr/local/bin/xray
+
+      - name: Install Python deps
+        run: pip install "requests[socks]"
+
+      - name: Run audit
+        env:
+          SUB_URL: ${{ secrets.SUB_URL }}
+          ABUSEIPDB_KEY: ${{ secrets.ABUSEIPDB_KEY }}
+        run: |
+          python3 audit.py \
+            --sub "$SUB_URL" \
+            --abuseipdb-key "$ABUSEIPDB_KEY" \
+            --json-out reports/latest.json
+
+      - name: Commit report
+        run: |
+          git config user.name  "GitHub Actions"
+          git config user.email "proxy@yzyworks.com"
+          cp reports/latest.json reports/$(date -u +%Y-%m-%d).json
+          git add reports/
+          git commit -m "Automated quality audit by GitHub actions"
+          git push
