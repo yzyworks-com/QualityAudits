@@ -1,4 +1,4 @@
-name: Weekly Audit
+name: Quality Audit
 
 on:
   schedule:
