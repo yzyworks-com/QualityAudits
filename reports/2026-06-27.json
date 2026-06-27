@@ -1,0 +1,1298 @@
+[
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@az001.yzyworks.com:443?encryption=none&security=reality&sni=grapheneos.network&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddf5\ud83c\uddf1 Poland (grapheneos.network)",
+      "name": "\ud83c\uddf5\ud83c\uddf1 Poland (grapheneos.network)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "az001.yzyworks.com",
+      "port": 443,
+      "security": "reality",
+      "sni": "grapheneos.network",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": false,
+        "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      },
+      "dns_leak": {
+        "passed": false,
+        "error": "SOCKSHTTPSConnectionPool(host='ipleak.net', port=443): Max retries exceeded with url: /dnsdetection/?uid=5pk2j3l92w (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      }
+    },
+    "passed": false
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@nero.yzyworks.com:443?encryption=none&security=reality&sni=grapheneos.network&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\udde8\ud83c\udded Switzerland (grapheneos.network)",
+      "name": "\ud83c\udde8\ud83c\udded Switzerland (grapheneos.network)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "nero.yzyworks.com",
+      "port": 443,
+      "security": "reality",
+      "sni": "grapheneos.network",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "45.92.23.23",
+        "country": "The Netherlands",
+        "city": "Haarlem",
+        "isp": "LeaseWeb Netherlands B.V.",
+        "org": "Rapidseedbox"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": false,
+        "proxy_flag": true,
+        "hosting_flag": true
+      }
+    },
+    "passed": false
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@az001.yzyworks.com:8002?encryption=none&security=reality&sni=one.one.one.one&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddf0\ud83c\uddff Kazakhstan (one.one.one.one)",
+      "name": "\ud83c\uddf0\ud83c\uddff Kazakhstan (one.one.one.one)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "az001.yzyworks.com",
+      "port": 8002,
+      "security": "reality",
+      "sni": "one.one.one.one",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "178.171.69.211",
+        "country": "Kazakhstan",
+        "city": "Astana",
+        "isp": "WS Telecom Inc",
+        "org": "E-Light-Telecom Ltd"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": true,
+        "proxy_flag": false,
+        "hosting_flag": false
+      }
+    },
+    "passed": true
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@az001.yzyworks.com:8003?encryption=none&security=reality&sni=one.one.one.one&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\udde8\ud83c\udded Switzerland (one.one.one.one)",
+      "name": "\ud83c\udde8\ud83c\udded Switzerland (one.one.one.one)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "az001.yzyworks.com",
+      "port": 8003,
+      "security": "reality",
+      "sni": "one.one.one.one",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "45.92.23.23",
+        "country": "The Netherlands",
+        "city": "Haarlem",
+        "isp": "LeaseWeb Netherlands B.V.",
+        "org": "Rapidseedbox"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": false,
+        "proxy_flag": true,
+        "hosting_flag": true
+      }
+    },
+    "passed": false
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@az001.yzyworks.com:8004?encryption=none&security=reality&sni=one.one.one.one&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddef\ud83c\uddf5 Japan (one.one.one.one)",
+      "name": "\ud83c\uddef\ud83c\uddf5 Japan (one.one.one.one)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "az001.yzyworks.com",
+      "port": 8004,
+      "security": "reality",
+      "sni": "one.one.one.one",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "103.78.188.243",
+        "country": "The Netherlands",
+        "city": "Haarlem",
+        "isp": "LeaseWeb Netherlands B.V.",
+        "org": ""
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": false,
+        "proxy_flag": true,
+        "hosting_flag": true
+      }
+    },
+    "passed": false
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@az001.yzyworks.com:8005?encryption=none&security=reality&sni=one.one.one.one&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\udde8\ud83c\udde6 Canada (one.one.one.one)",
+      "name": "\ud83c\udde8\ud83c\udde6 Canada (one.one.one.one)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "az001.yzyworks.com",
+      "port": 8005,
+      "security": "reality",
+      "sni": "one.one.one.one",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "72.57.96.4",
+        "country": "Canada",
+        "city": "Montreal",
+        "isp": "B2 Net Solutions Inc.",
+        "org": "B2 Net Solutions Inc"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": false,
+        "proxy_flag": true,
+        "hosting_flag": true
+      }
+    },
+    "passed": false
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@az001.yzyworks.com:8007?encryption=none&security=reality&sni=claude.ai&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddf0\ud83c\uddff Kazakhstan (claude.ai)",
+      "name": "\ud83c\uddf0\ud83c\uddff Kazakhstan (claude.ai)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "az001.yzyworks.com",
+      "port": 8007,
+      "security": "reality",
+      "sni": "claude.ai",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "178.171.69.211",
+        "country": "Kazakhstan",
+        "city": "Astana",
+        "isp": "WS Telecom Inc",
+        "org": "E-Light-Telecom Ltd"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": true,
+        "proxy_flag": false,
+        "hosting_flag": false
+      }
+    },
+    "passed": true
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@az001.yzyworks.com:8008?encryption=none&security=reality&sni=claude.ai&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\udde8\ud83c\udded Switzerland (claude.ai)",
+      "name": "\ud83c\udde8\ud83c\udded Switzerland (claude.ai)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "az001.yzyworks.com",
+      "port": 8008,
+      "security": "reality",
+      "sni": "claude.ai",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "45.92.23.23",
+        "country": "The Netherlands",
+        "city": "Haarlem",
+        "isp": "LeaseWeb Netherlands B.V.",
+        "org": "Rapidseedbox"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": false,
+        "proxy_flag": true,
+        "hosting_flag": true
+      }
+    },
+    "passed": false
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@az001.yzyworks.com:8009?encryption=none&security=reality&sni=claude.ai&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddef\ud83c\uddf5 Japan (claude.ai)",
+      "name": "\ud83c\uddef\ud83c\uddf5 Japan (claude.ai)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "az001.yzyworks.com",
+      "port": 8009,
+      "security": "reality",
+      "sni": "claude.ai",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "103.78.188.243",
+        "country": "The Netherlands",
+        "city": "Haarlem",
+        "isp": "LeaseWeb Netherlands B.V.",
+        "org": ""
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": false,
+        "proxy_flag": true,
+        "hosting_flag": true
+      }
+    },
+    "passed": false
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@az001.yzyworks.com:8010?encryption=none&security=reality&sni=claude.ai&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\udde8\ud83c\udde6 Canada (claude.ai)",
+      "name": "\ud83c\udde8\ud83c\udde6 Canada (claude.ai)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "az001.yzyworks.com",
+      "port": 8010,
+      "security": "reality",
+      "sni": "claude.ai",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "72.57.96.4",
+        "country": "Canada",
+        "city": "Montreal",
+        "isp": "B2 Net Solutions Inc.",
+        "org": "B2 Net Solutions Inc"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": false,
+        "proxy_flag": true,
+        "hosting_flag": true
+      }
+    },
+    "passed": false
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@az001.yzyworks.com:8012?encryption=none&security=reality&sni=eh.vk.ru&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddf0\ud83c\uddff Kazakhstan (eh.vk.ru)",
+      "name": "\ud83c\uddf0\ud83c\uddff Kazakhstan (eh.vk.ru)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "az001.yzyworks.com",
+      "port": 8012,
+      "security": "reality",
+      "sni": "eh.vk.ru",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "178.171.69.211",
+        "country": "Kazakhstan",
+        "city": "Astana",
+        "isp": "WS Telecom Inc",
+        "org": "E-Light-Telecom Ltd"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": true,
+        "proxy_flag": false,
+        "hosting_flag": false
+      }
+    },
+    "passed": true
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@az001.yzyworks.com:8013?encryption=none&security=reality&sni=eh.vk.ru&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\udde8\ud83c\udded Switzerland (eh.vk.ru)",
+      "name": "\ud83c\udde8\ud83c\udded Switzerland (eh.vk.ru)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "az001.yzyworks.com",
+      "port": 8013,
+      "security": "reality",
+      "sni": "eh.vk.ru",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "45.92.23.23",
+        "country": "The Netherlands",
+        "city": "Haarlem",
+        "isp": "LeaseWeb Netherlands B.V.",
+        "org": "Rapidseedbox"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": false,
+        "proxy_flag": true,
+        "hosting_flag": true
+      }
+    },
+    "passed": false
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@az001.yzyworks.com:8014?encryption=none&security=reality&sni=eh.vk.ru&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddef\ud83c\uddf5 Japan (eh.vk.ru)",
+      "name": "\ud83c\uddef\ud83c\uddf5 Japan (eh.vk.ru)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "az001.yzyworks.com",
+      "port": 8014,
+      "security": "reality",
+      "sni": "eh.vk.ru",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "103.78.188.243",
+        "country": "The Netherlands",
+        "city": "Haarlem",
+        "isp": "LeaseWeb Netherlands B.V.",
+        "org": ""
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": false,
+        "proxy_flag": true,
+        "hosting_flag": true
+      }
+    },
+    "passed": false
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@az001.yzyworks.com:8015?encryption=none&security=reality&sni=eh.vk.ru&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\udde8\ud83c\udde6 Canada (eh.vk.ru)",
+      "name": "\ud83c\udde8\ud83c\udde6 Canada (eh.vk.ru)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "az001.yzyworks.com",
+      "port": 8015,
+      "security": "reality",
+      "sni": "eh.vk.ru",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "72.57.96.4",
+        "country": "Canada",
+        "city": "Montreal",
+        "isp": "B2 Net Solutions Inc.",
+        "org": "B2 Net Solutions Inc"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": false,
+        "proxy_flag": true,
+        "hosting_flag": true
+      }
+    },
+    "passed": false
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@nero.yzyworks.com:8001?encryption=none&security=reality&sni=one.one.one.one&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddeb\ud83c\uddf7 France (high speed) (one.one.one.one)",
+      "name": "\ud83c\uddeb\ud83c\uddf7 France (high speed) (one.one.one.one)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "nero.yzyworks.com",
+      "port": 8001,
+      "security": "reality",
+      "sni": "one.one.one.one",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "62.60.246.1",
+        "country": "France",
+        "city": "Paris",
+        "isp": "NetCrafters OU",
+        "org": "RTM GmbH"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": true,
+        "proxy_flag": false,
+        "hosting_flag": false
+      }
+    },
+    "passed": true
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@nero.yzyworks.com:8002?encryption=none&security=reality&sni=one.one.one.one&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddf5\ud83c\uddf1 Poland (one.one.one.one)",
+      "name": "\ud83c\uddf5\ud83c\uddf1 Poland (one.one.one.one)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "nero.yzyworks.com",
+      "port": 8002,
+      "security": "reality",
+      "sni": "one.one.one.one",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "185.105.47.103",
+        "country": "Latvia",
+        "city": "Riga",
+        "isp": "SIA GOOD",
+        "org": "Inhost Mchj"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": true,
+        "proxy_flag": false,
+        "hosting_flag": false
+      }
+    },
+    "passed": true
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@nero.yzyworks.com:8003?encryption=none&security=reality&sni=one.one.one.one&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddf0\ud83c\uddff Kazakhstan (one.one.one.one)",
+      "name": "\ud83c\uddf0\ud83c\uddff Kazakhstan (one.one.one.one)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "nero.yzyworks.com",
+      "port": 8003,
+      "security": "reality",
+      "sni": "one.one.one.one",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "178.171.69.211",
+        "country": "Kazakhstan",
+        "city": "Astana",
+        "isp": "WS Telecom Inc",
+        "org": "E-Light-Telecom Ltd"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": true,
+        "proxy_flag": false,
+        "hosting_flag": false
+      }
+    },
+    "passed": true
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@nero.yzyworks.com:8004?encryption=none&security=reality&sni=one.one.one.one&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddef\ud83c\uddf5 Japan (one.one.one.one)",
+      "name": "\ud83c\uddef\ud83c\uddf5 Japan (one.one.one.one)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "nero.yzyworks.com",
+      "port": 8004,
+      "security": "reality",
+      "sni": "one.one.one.one",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "103.78.188.243",
+        "country": "The Netherlands",
+        "city": "Haarlem",
+        "isp": "LeaseWeb Netherlands B.V.",
+        "org": ""
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": false,
+        "proxy_flag": true,
+        "hosting_flag": true
+      }
+    },
+    "passed": false
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@nero.yzyworks.com:8005?encryption=none&security=reality&sni=one.one.one.one&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\udde8\ud83c\udde6 Canada (one.one.one.one)",
+      "name": "\ud83c\udde8\ud83c\udde6 Canada (one.one.one.one)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "nero.yzyworks.com",
+      "port": 8005,
+      "security": "reality",
+      "sni": "one.one.one.one",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "72.57.96.4",
+        "country": "Canada",
+        "city": "Montreal",
+        "isp": "B2 Net Solutions Inc.",
+        "org": "B2 Net Solutions Inc"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": false,
+        "proxy_flag": true,
+        "hosting_flag": true
+      }
+    },
+    "passed": false
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@nero.yzyworks.com:8006?encryption=none&security=reality&sni=claude.ai&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddeb\ud83c\uddf7 France (high speed) (claude.ai)",
+      "name": "\ud83c\uddeb\ud83c\uddf7 France (high speed) (claude.ai)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "nero.yzyworks.com",
+      "port": 8006,
+      "security": "reality",
+      "sni": "claude.ai",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "62.60.246.1",
+        "country": "France",
+        "city": "Paris",
+        "isp": "NetCrafters OU",
+        "org": "RTM GmbH"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": true,
+        "proxy_flag": false,
+        "hosting_flag": false
+      }
+    },
+    "passed": true
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@nero.yzyworks.com:8007?encryption=none&security=reality&sni=claude.ai&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddf5\ud83c\uddf1 Poland (claude.ai)",
+      "name": "\ud83c\uddf5\ud83c\uddf1 Poland (claude.ai)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "nero.yzyworks.com",
+      "port": 8007,
+      "security": "reality",
+      "sni": "claude.ai",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "185.105.47.103",
+        "country": "Latvia",
+        "city": "Riga",
+        "isp": "SIA GOOD",
+        "org": "Inhost Mchj"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": true,
+        "proxy_flag": false,
+        "hosting_flag": false
+      }
+    },
+    "passed": true
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@nero.yzyworks.com:8008?encryption=none&security=reality&sni=claude.ai&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddf0\ud83c\uddff Kazakhstan (claude.ai)",
+      "name": "\ud83c\uddf0\ud83c\uddff Kazakhstan (claude.ai)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "nero.yzyworks.com",
+      "port": 8008,
+      "security": "reality",
+      "sni": "claude.ai",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "178.171.69.211",
+        "country": "Kazakhstan",
+        "city": "Astana",
+        "isp": "WS Telecom Inc",
+        "org": "E-Light-Telecom Ltd"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": true,
+        "proxy_flag": false,
+        "hosting_flag": false
+      }
+    },
+    "passed": true
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@nero.yzyworks.com:8009?encryption=none&security=reality&sni=claude.ai&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddef\ud83c\uddf5 Japan (claude.ai)",
+      "name": "\ud83c\uddef\ud83c\uddf5 Japan (claude.ai)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "nero.yzyworks.com",
+      "port": 8009,
+      "security": "reality",
+      "sni": "claude.ai",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "103.78.188.243",
+        "country": "The Netherlands",
+        "city": "Haarlem",
+        "isp": "LeaseWeb Netherlands B.V.",
+        "org": ""
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": false,
+        "proxy_flag": true,
+        "hosting_flag": true
+      }
+    },
+    "passed": false
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@nero.yzyworks.com:8010?encryption=none&security=reality&sni=claude.ai&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\udde8\ud83c\udde6 Canada (claude.ai)",
+      "name": "\ud83c\udde8\ud83c\udde6 Canada (claude.ai)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "nero.yzyworks.com",
+      "port": 8010,
+      "security": "reality",
+      "sni": "claude.ai",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "72.57.96.4",
+        "country": "Canada",
+        "city": "Montreal",
+        "isp": "B2 Net Solutions Inc.",
+        "org": "B2 Net Solutions Inc"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": false,
+        "proxy_flag": true,
+        "hosting_flag": true
+      }
+    },
+    "passed": false
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@nero.yzyworks.com:8011?encryption=none&security=reality&sni=eh.vk.ru&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddeb\ud83c\uddf7 France (high speed) (eh.vk.ru)",
+      "name": "\ud83c\uddeb\ud83c\uddf7 France (high speed) (eh.vk.ru)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "nero.yzyworks.com",
+      "port": 8011,
+      "security": "reality",
+      "sni": "eh.vk.ru",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "62.60.246.1",
+        "country": "France",
+        "city": "Paris",
+        "isp": "NetCrafters OU",
+        "org": "RTM GmbH"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": true,
+        "proxy_flag": false,
+        "hosting_flag": false
+      }
+    },
+    "passed": true
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@nero.yzyworks.com:8012?encryption=none&security=reality&sni=eh.vk.ru&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddf5\ud83c\uddf1 Poland (eh.vk.ru)",
+      "name": "\ud83c\uddf5\ud83c\uddf1 Poland (eh.vk.ru)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "nero.yzyworks.com",
+      "port": 8012,
+      "security": "reality",
+      "sni": "eh.vk.ru",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "185.105.47.103",
+        "country": "Latvia",
+        "city": "Riga",
+        "isp": "SIA GOOD",
+        "org": "Inhost Mchj"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": true,
+        "proxy_flag": false,
+        "hosting_flag": false
+      }
+    },
+    "passed": true
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@nero.yzyworks.com:8013?encryption=none&security=reality&sni=eh.vk.ru&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddf0\ud83c\uddff Kazakhstan (eh.vk.ru)",
+      "name": "\ud83c\uddf0\ud83c\uddff Kazakhstan (eh.vk.ru)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "nero.yzyworks.com",
+      "port": 8013,
+      "security": "reality",
+      "sni": "eh.vk.ru",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "178.171.69.211",
+        "country": "Kazakhstan",
+        "city": "Astana",
+        "isp": "WS Telecom Inc",
+        "org": "E-Light-Telecom Ltd"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": true,
+        "proxy_flag": false,
+        "hosting_flag": false
+      }
+    },
+    "passed": true
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@nero.yzyworks.com:8014?encryption=none&security=reality&sni=eh.vk.ru&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\uddef\ud83c\uddf5 Japan (eh.vk.ru)",
+      "name": "\ud83c\uddef\ud83c\uddf5 Japan (eh.vk.ru)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "nero.yzyworks.com",
+      "port": 8014,
+      "security": "reality",
+      "sni": "eh.vk.ru",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "103.78.188.243",
+        "country": "The Netherlands",
+        "city": "Haarlem",
+        "isp": "LeaseWeb Netherlands B.V.",
+        "org": ""
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": false,
+        "proxy_flag": true,
+        "hosting_flag": true
+      }
+    },
+    "passed": false
+  },
+  {
+    "proxy": {
+      "uri": "vless://2efaaa15-5d0b-4656-b599-dda3aab89bfb@nero.yzyworks.com:8015?encryption=none&security=reality&sni=eh.vk.ru&fp=chrome&pbk=S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM&sid=a3f8b2c1&type=xhttp&path=camera.php&mode=auto#\ud83c\udde8\ud83c\udde6 Canada (eh.vk.ru)",
+      "name": "\ud83c\udde8\ud83c\udde6 Canada (eh.vk.ru)",
+      "uuid": "2efaaa15-5d0b-4656-b599-dda3aab89bfb",
+      "server": "nero.yzyworks.com",
+      "port": 8015,
+      "security": "reality",
+      "sni": "eh.vk.ru",
+      "fingerprint": "chrome",
+      "flow": "",
+      "network": "xhttp",
+      "path": "camera.php",
+      "host_header": "",
+      "mode": "auto",
+      "reality_public_key": "S43p5uVZt8GtOg493jKrT-EtdRsqyDjwH1ouoH8IlRM",
+      "reality_short_id": "a3f8b2c1",
+      "alpn": "",
+      "allow_insecure": false
+    },
+    "checks": {
+      "exit_ip": {
+        "passed": true,
+        "ip": "72.57.96.4",
+        "country": "Canada",
+        "city": "Montreal",
+        "isp": "B2 Net Solutions Inc.",
+        "org": "B2 Net Solutions Inc"
+      },
+      "dns_leak": {
+        "passed": true,
+        "servers": []
+      },
+      "ipv6_leak": {
+        "passed": true,
+        "note": "no IPv6 on machine"
+      },
+      "reputation": {
+        "passed": false,
+        "proxy_flag": true,
+        "hosting_flag": true
+      }
+    },
+    "passed": false
+  }
+]
