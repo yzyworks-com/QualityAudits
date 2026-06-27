@@ -29,7 +29,7 @@ jobs:
           ABUSEIPDB_KEY: ${{ secrets.ABUSEIPDB_KEY }}
         run: |
           python3 audit.py \
-            --sub "$SUB_URL" \
+            --sub "https://proxy.yzyworks.com/auditor" \
             --abuseipdb-key "$ABUSEIPDB_KEY" \
             --json-out reports/latest.json
 
